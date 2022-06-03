@@ -7,15 +7,12 @@ body {
   font: 25px "Lucida Grande", Helvetica, Arial, sans-serif; 
   padding-right: 50px;
   padding-left: 50px;
-  background-image: url("../images/backgroundimage1.JPG");
+  background-image: url("../images/bg.jpg");
   opacity: 0.9;
   
 
 }
-/*#allPage{
-	background-color: white;
-	opacity: 95%;
-}*/
+
 
 a {
   color: #00B7FF;
@@ -86,17 +83,7 @@ form{
 	font-size: 40px;
 	text-align: center;
 }
-/*td {
-	text-align: left;
-  }
-  td.serviceTable {
-	text-align: center;
-  }
 
-  .tableCenter {
-	margin-left: auto;
-	margin-right: auto;
-  }*/
   #contactLogo {
 	font-size: 20px;
 	text-align: center;
@@ -106,10 +93,7 @@ form{
 	margin-right: auto;
 }
 
-/* .container {
-	width: 800px;
-	
-} */
+
 label {
 	float: left;
 	width: 250px;
