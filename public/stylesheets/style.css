@@ -1,0 +1,126 @@
+/* File name - style.css
+ Author - Laila Nazneen
+ Student id - 301167735
+ Date - 2nd June,2022  */
+
+body {
+  font: 25px "Lucida Grande", Helvetica, Arial, sans-serif; 
+  padding-right: 50px;
+  padding-left: 50px;
+  background-image: url("../images/backgroundimage1.JPG");
+  opacity: 0.9;
+  
+
+}
+/*#allPage{
+	background-color: white;
+	opacity: 95%;
+}*/
+
+a {
+  color: #00B7FF;
+}
+footer {
+	background-color:rgb(100, 152, 160);
+	font-size: 14px;
+	text-align: center;
+	padding: 0.5em 0.5em;
+	color: white;
+}
+#languageLogo {
+	font-size: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1.7cm;
+
+}
+#aboutText {
+	font-size: 24px;
+  font-weight: bold;
+  color: rgb(37, 94, 113);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+  }
+  .center2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+  } 
+  #textLarge {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:35px;
+	font-weight: bold;
+	
+	color:rgb(99, 220, 218);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+div{
+  background-color: antiquewhite;
+}
+
+
+form{
+	margin-left: 5cm;
+}
+#projects {
+	border-style: solid;
+	border-color: navy;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 1px 1px #C0C0C0;
+	text-align: center;
+	margin: 40px;
+}
+#footerLogo {
+	font-size: 40px;
+	text-align: center;
+}
+/*td {
+	text-align: left;
+  }
+  td.serviceTable {
+	text-align: center;
+  }
+
+  .tableCenter {
+	margin-left: auto;
+	margin-right: auto;
+  }*/
+  #contactLogo {
+	font-size: 20px;
+	text-align: center;
+	color:rgb(1, 19, 18);
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* .container {
+	width: 800px;
+	
+} */
+label {
+	float: left;
+	width: 250px;
+	text-align: right;
+}
+
+fieldset {
+	background-color: skyblue;     	   
+    	display:inherit;    
+	opacity: 0.6;
+	text-align: center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
