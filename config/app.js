@@ -12,9 +12,6 @@ var contactRouter = require('../routes/contact');
 var projectsRouter = require('../routes/projects');
 var servicesRouter = require('../routes/services');
 
-
-
-
 //Instantiate Express
 var app = express();
 
@@ -30,19 +27,12 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(express.static(path.join(__dirname, '../node_modules')));
 app.use(express.static(path.join(__dirname, '../routes')));
 
-
-
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+//app.use('/users', usersRouter);
 app.use('/about', aboutRouter);
 app.use('/contact', contactRouter);
 app.use('/projects', projectsRouter);
 app.use('/services', servicesRouter);
-
-
-
-
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
