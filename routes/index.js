@@ -8,7 +8,7 @@ function home(req, res, next) {
   res.render(
     'index', 
     { 
-      title: 'Express',
+      title: 'Home',
       userName: 'Laila'
     }
   );

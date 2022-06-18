@@ -31,25 +31,71 @@ Date: Jun 02, 2022
     <!-- Links -->
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/"><i class="fas fa-home"></i> Home </a>
+        <% if(title == "Home") { %>
+          <a class="nav-link active" href="/">
+        <%} else {%>
+          <a class="nav-link" href="/">
+        <%} %>
+          <i class="fas fa-home"></i> Home </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about"><i class="fas fa-file-contract"></i> About </a>
-      </li>
-    
-    <li class="nav-item">
-      <a class="nav-link" href="/projects"><i class="fas fa-tasks"></i> Projects </a>
-    </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="/services"><i class="fa-solid fa-briefcase"></i></i> Services </a>
+        <% if(title == "About") { %>
+          <a class="nav-link active" href="/about">
+        <%} else {%>
+          <a class="nav-link" href="/about">
+        <%} %>
+          <i class="fas fa-file-contract"></i> About </a>
       </li>
+   <!--   <li class="nav-item">
+        <a class="nav-link" href="/about"><i class="fas fa-file-contract"></i> About </a>
+      </li>-->
       <li class="nav-item">
-        <a class="nav-link" href="/contact"><i class="fa-solid fa-address-card"></i></i> Contact Me </a>
+        <% if(title == "My Projects") { %>
+          <a class="nav-link active" href="/projects">
+        <%} else {%>
+          <a class="nav-link" href="/projects">
+        <%} %>
+        <i class="fas fa-tasks"></i> Projects </a>
       </li>
-     <!--<li class="nav-item">
+    
+  <!--  <li class="nav-item">
+      <a class="nav-link" href="/projects"><i class="fas fa-tasks"></i> Projects </a>
+    </li>
+  -->
+  <li class="nav-item">
+    <% if(title == "My Services") { %>
+      <a class="nav-link active" href="/services">
+    <%} else {%>
+      <a class="nav-link" href="/services">
+    <%} %>
+    <i class="fas fa-tasks"></i> Services </a>
+  </li> 
+    <!--  <li class="nav-item">
+        <a class="nav-link" href="/services"><i class="fa-solid fa-briefcase"></i></i> Services </a>
+      </li>-->
+      <li class="nav-item">
+        <% if(title == "My Contact info") { %>
+          <a class="nav-link active" href="/contact">
+        <%} else {%>
+          <a class="nav-link" href="/contact">
+        <%} %>
+        <i class="fa-solid fa-address-card"></i> Contact Me </a>
+      </li>
+    <!--  <li class="nav-item">
+        <a class="nav-link" href="/contact"><i class="fa-solid fa-address-card"></i></i> Contact Me </a>
+      </li>-->
+      <li class="nav-item">
+        <% if(title == "Users") { %>
+          <a class="nav-link active" href="/users">
+        <% } else { %>
+          <a class="nav-link" href="/users">
+        <%} %>
+        <i class="fas fa-users"></i> Users </a>
+      </li>
+    <!-- <li class="nav-item">
         <a class="nav-link" href="/users"><i class="fas fa-users"></i> Users </a>
-      </li> --> 
+      </li>  -->
       
     </ul>
   </nav>
