@@ -15,15 +15,6 @@ function home(req, res, next) {
 }
 
 
-/* GET About page. 
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About', userName: 'Laila' });
-});
-
-/* GET Projects page. 
-router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Projects', userName: 'Laila' });
-});*/
 
 
 module.exports = router;

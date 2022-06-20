@@ -3,8 +3,8 @@
 /**
  * Module dependencies.
  */
-
-var app = require('./config/app');
+ var app = require('./config/app');
+var configDB = require('./config/db');
 var debug = require('debug')('comp229.003.s2022:server');
 var http = require('http');
 const { Console } = require('console');
@@ -12,8 +12,8 @@ const { Console } = require('console');
 /**
  * Get port from environment and store in Express.
  */
-
-var port = normalizePort(process.env.PORT || '3000');
+var db= configDB();
+var port = normalizePort(process.env.PORT || '3001');
 app.set('port', port);
 
 /**
