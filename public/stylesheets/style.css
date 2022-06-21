@@ -97,7 +97,7 @@ form{
 label {
 	float: left;
 	width: 250px;
-	text-align: right;
+	text-align: auto;
 }
 
 fieldset {
@@ -108,3 +108,15 @@ fieldset {
   font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
 
 }
+td {
+	text-align: right;
+  }
+  td.serviceTable {
+	text-align: center;
+  }
+
+  .tableCenter {
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
