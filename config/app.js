@@ -4,25 +4,11 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-/*let compress = require('compression');
-let bodyParser = require('body-parser');
-let methodOverride = require('method-override');*/
 let flash = require('connect-flash');
 
 // modules for authentication
 let passport = require('passport');
 let session = require('express-session');
-/*//Database setup
-let mongoose = require('mongoose');
-let dbURI = require('./db');
-// Connect to the Database
-mongoose.connect(dbURI.URI);
-
-let mongoDB = mongoose.connection;
-mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
-mongoDB.once('open', ()=>{
-  console.log('Connected to MongoDB...');
-});*/
 
 
 
@@ -36,7 +22,7 @@ var inventoryRouter = require('../routes/inventory');
 var businessRouter = require('../routes/business');
 
 //Instantiate Express
-//var app = express();
+
 let app = express();
 
 //setup express session

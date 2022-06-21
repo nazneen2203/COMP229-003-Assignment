@@ -1,7 +1,7 @@
 // Connect to our model
 let Business = require('../models/business');
 
-/* GET users listing. */
+// GET users listing. 
 module.exports.list = function (req, res, next) {
     Business.find((err, businessList) => {
         //console.log(businessList);
